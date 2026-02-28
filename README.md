@@ -27,3 +27,7 @@ BagsPulse analyzes a token using public API data and generates a health score in
 - AI strategy assistant
 
 Built for Hackathon 🚀
+
+## Vision
+
+BagsPulse aims to become the Bloomberg Terminal for Bags creators by providing data-driven insights and strategic intelligence tools.
