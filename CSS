@@ -22,3 +22,41 @@ button {
 #result {
   margin-top: 30px;
 }
+
+.score-green {
+  color: #00ff99;
+}
+
+.score-yellow {
+  color: #ffcc00;
+}
+
+.score-red {
+  color: #ff4d4d;
+}
+
+.warning {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255, 77, 77, 0.2);
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.spinner {
+  margin-top: 20px;
+  border: 4px solid rgba(255,255,255,0.2);
+  border-top: 4px solid #00c896;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
